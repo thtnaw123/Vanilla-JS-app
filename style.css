@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #e5f665, #85fd8f);
+    padding-top: 100px;
+    text-align: center;
+}
+
+.search {
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+    margin: 25px 0 0 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.todoContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.todoContainer .addButton {
+    height: 33px;
+    width: 80px;
+    /* background: rgb(235, 157, 14); */
+    border: 1px solid rgb(14, 21, 235);
+    background: rgb(83, 155, 177);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.todoContainer .addButton:hover {
+    background: #fff;
+    color: #000;
+    /* border: 3px solid #d31515; */
+}
+
+.todoContainer .todoText {
+    width: 220px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.filter-todos {
+    padding: 0.5em;
+    margin-left: 1.5em;
+}
+
+.todos {
+    margin-top: 3.5em;
+}
+
+.todos .unit-todo {
+    display: flex;
+    justify-content: center;
+    margin: 15px 350px 5px 350px;
+    /* padding: 10px; */
+    transition: all 0.4s ease;
+}
+
+.show {
+    display: none;
+}
+
+.todo-delete {
+    height: 33px;
+    width: 80px;
+    background: rgb(172, 54, 54);
+    color: white;
+    margin: 5px;
+}
+
+.todo-checked {
+    height: 33px;
+    width: 80px;
+    background: rgb(49, 83, 156);
+    color: white;
+    margin: 5px;
+}
+
+.todo-item-content {
+    background: #fff;
+    height: 35px;
+    max-width: 230px;
+    width: 230px;
+    min-width: 130px;
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 35px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.checked {
+    opacity: 0.3;
+    text-decoration: line-through;
+    background: #000;
+}
+
+.filter-todos {
+    cursor: pointer;
+}
+
+.fall {
+    transform: translateY(100px) rotate(20deg);
+    opacity: 0;
+    /* background: #000; */
+}
+
+.filterOut {
+    display: none !important;
+    /* background: #000; */
+    /* opacity: 0; */
+}
