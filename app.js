@@ -187,10 +187,6 @@ search.addEventListener('keyup', () => {
 
 
 
-    // let foundItem = todoList.filter((target) => {
-    //     return target === searchItem
-    // })
-    // console.log(foundItem)
 
 })
 

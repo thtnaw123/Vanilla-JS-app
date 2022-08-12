@@ -28,7 +28,6 @@ body {
 .todoContainer .addButton {
     height: 33px;
     width: 80px;
-    /* background: rgb(235, 157, 14); */
     border: 1px solid rgb(14, 21, 235);
     background: rgb(83, 155, 177);
     border-radius: 5px;
