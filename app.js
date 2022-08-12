@@ -175,7 +175,6 @@ search.addEventListener('keyup', () => {
     // console.log(searchItem)
     let eachTodo = todos.childNodes;
     eachTodo.forEach(element => {
-        // let searchScope = element.childNodes[0].textContent;
         if (!element.childNodes[0].textContent.includes(searchItem)) {
             console.log(element.childNodes[0].textContent)
             element.classList.add("filterOut")
