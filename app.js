@@ -156,9 +156,6 @@ function deleteLocal(element) {
     // let innerContents = element.innerText.toString();
     // let cIdx = innerContents.search("'Complete");
     // var targetContent = innerContents.slice(0, cIdx);
-    // console.log(targetContent)
-    // console.log(element.innerHTML);
-    // console.log(innerContents.search("Completed"));
     // let contentIdx = todoList.indexOf(targetContent);
 
     let innerContent = element.childNodes[0].innerText;
